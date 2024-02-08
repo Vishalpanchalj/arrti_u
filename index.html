@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            text-align: center;
+            margin-top: 40%;
+            text-transform:capitalize;
+            
+        }
+        #ou{
+            text-align: center;
+            font-weight: bold;
+            font-size: 30px;
+            
+
+        }
+        #hu{
+            margin-top: 5px;
+            color: white;
+            background-color: rgb(32, 138, 244);
+            border-color: rgb(32, 138, 244); 
+            margin-left: 20px;
+            font-size: 20px;
+            border-radius: 5px;
+        }
+        
+    </style>
+</head>
+<body>
+    <script>
+        function ok(){
+            var pass=document.get.id.value;
+            if(pass=='vakil_sahiba'){
+                alert("password match");
+                return true;
+            }
+            else{
+                alert("enter valid password");
+                return false;
+            }
+        }
+    </script>
+    <div>
+        <center>
+            <img src="https://scontent.cdninstagram.com/v/t51.2885-19/319714975_493011836295163_3527857458768495003_n.jpg?stp=dst-jpg_s120x120&_nc_cat=109&ccb=1-7&_nc_sid=3fd06f&_nc_ohc=Mm0Gsp95uIwAX_x_yjT&_nc_ht=scontent.cdninstagram.com&oh=00_AfBWenRRdLybBd2zE2ZrFBDsU8kCxI_f53qHjYG2SJu5qg&oe=65CA0472" style="border-radius: 40px;">
+            </center>
+   
+    <h1>aarti_ujjainwal</h1>
+    
+    <form name="get" action="aru.html" onsubmit="return ok()" id="ou">
+       password <input type="password" name="id" placeholder="enter the paswword">
+        <br>
+        <input type="submit" value="LOG IN" id="hu">
+    </form>
+</div>
+</body>
+</html>
